@@ -7,8 +7,8 @@ from streamlit_folium import st_folium
 from math import radians, cos, sin, asin, sqrt
 from scipy.signal import butter, filtfilt
 
-locpath = "Location.csv"
-accelpath = "Linear acceleration.csv"
+locpath = "https://raw.githubusercontent.com/Martel02/fysiikanLoppuprojekti/refs/heads/main/Location.csv"
+accelpath = "https://raw.githubusercontent.com/Martel02/fysiikanLoppuprojekti/refs/heads/main/Linear%20Acceleration.csv"
 locdf = pd.read_csv(locpath)
 acceldf = pd.read_csv(accelpath)
 
