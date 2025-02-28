@@ -97,7 +97,7 @@ st.write("Fourier-analyysin perusteella laskettu askelmäärä on:", round(f_max
 st.write("Laskettu askelten pituus on :", int(askelpituus), 'cm')
 
 #Filtteröidyn signaalin kuvaaja
-st.subheader("Kuvaaja filtteröidystä signaalista", divider="gray")
+st.subheader("Kuvaaja x-komponentin suodatetusta signaalista", divider="gray")
 st.write("Kuvaajasta näytetään vain aikaväli 30-100 sekuntia, jotta kuvaaja olisi selkeämpi.")
 plt.figure(figsize=(15,5))
 plt.plot(acceldf['Time (s)'],filt_signal)
